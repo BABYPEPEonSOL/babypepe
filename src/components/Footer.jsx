@@ -2,6 +2,7 @@ import React from "react";
 import TwitterImg from '/src/assets/images/twitter.svg'
 import TelegramImg from '/src/assets/images/telegram.svg'
 
+
 const Footer = () => {
   return (
     <div className="pt-[102px] pb-[36px] ">
