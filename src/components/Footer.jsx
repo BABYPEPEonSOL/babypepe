@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="py-[36px] w-full flex justify-between items-center text-lightText text-sm" style={{borderTop:'1px solid #798da3'}}>
         <div>Copyright © 2024.</div>
         <div className="flex justify-end items-center">
-            <a className="rounded-full mx-1 p-2" href="https://twitter.com/babypepe_onsol" style={{border:'1px solid #798da3'}}>
+            <a className="rounded-full mx-1 p-2" href="https://t.me/babypepe_onsol" target="_blank" style={{border:'1px solid #798da3'}}>
                 <img src={TwitterImg} alt="" />
             </a>
             <a className="rounded-full mx-1 p-2" href="https://t.me/babypepe_onsol" style={{border:'1px solid #798da3'}}>
