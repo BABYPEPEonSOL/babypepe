@@ -11,7 +11,7 @@ const Vedio = () => {
         loop='true'
         width='100%'      
         height='100%'      >
-        <source src='/src/assets/yt.mp4' type="video/mp4" />
+        <source src='/src/assets/images/yt.mp4' type="video/mp4" />
       </video>
     </div>
   );
