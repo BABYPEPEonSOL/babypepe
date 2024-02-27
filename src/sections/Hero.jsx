@@ -78,7 +78,7 @@ const Hero = () => {
             5CeDboRoW9S2kd4qUegrB6tFfxHRiY9kRuTQfVukSohZ
           </div>
           <a
-            href="https://twitter.com/babypepe_onsol"
+            href="https://t.me/babypepe_onsol"
             target="_blank"
             className="m-[10px] px-[25] lg:px-[30px] py-3 lg:py-4 bg-themeGreen text-white font-bold text-[15px] lg:text-base rounded-lg no-underline"
           >
