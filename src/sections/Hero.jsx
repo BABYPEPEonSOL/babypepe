@@ -51,14 +51,14 @@ const Hero = () => {
         <img src={Banner} />
       </div>
       <div
-        className={` pb-[154px] flex flex-col lg:flex-row justify-center lg:justify-start items-start lg:items-center text-white font-bold relative ${addPadding?'pt-[272px]':'pt-[162px]'}`}
+        className={` pb-[154px] flex flex-col lg:flex-row justify-center lg:justify-start items-start lg:items-center text-white font-bold relative ${addPadding?'pt-[200px]':'pt-[90px]'}`}
         id="home"
       >
         <div className="flex flex-1 flex-col justify-start items-start mr-[50px]">
-          <div className="text-[40px] md:text-[48px] lg:text-[72px]">
+          <div className="text-[40px] md:text-[48px] lg:text-[72px] font-bold">
             Baby Pepe coin on Solana
           </div>
-          <div className="text-sm md:text-[17px]">
+          <div className="text-sm md:text-[17px] tracking-wide">
             At PepeCoin, we`re pioneering the next chapter in cryptocurrency,
             boldly positioning ourselves as the &quot;Doge Killer&quot; with a
             clear mission to dethrone Dogecoin from its current pedestal. Our
@@ -71,7 +71,7 @@ const Hero = () => {
             to revolutionize the crypto space, making Doge watch from the
             sidelines as PepeCoin takes the lead.
           </div>
-          <div className="text-sm md:text-[17px] mt-[28px] lg:mt-[40px]">
+          <div className="text-sm md:text-[17px] mt-[38px] lg:mt-[50px]">
             Contact Address
           </div>
           <div className="text-sm md:text-[17px] mb-[28px] lg:mb-[40px]">
