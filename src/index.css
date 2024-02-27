@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap")
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #09121d;
+}
+body{
+  margin:0
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  transform: scale(1);
+  vertical-align: middle;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0.5;
+}
+.overlay img {
+  mix-blend-mode: luminosity;
+  opacity: 0.9;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  margin: auto;
+}
+.navScroll{
+  position:fixed;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 1400px){
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.imageAnimate{
+  animation: moveMob 5s infinite linear;
+}
+
+@media (min-width: 1000px){
+  .imageAnimate{
+    animation: move4 5s infinite linear;
+  }
+}
+@keyframes move4 {
+  0% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+  50% {
+    -webkit-transform: translate(-30px);
+    transform: translate(-30px);
+  }
+  100% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+}
+@keyframes moveMob {
+  0% {
+    -webkit-transform: translate(40px);
+    transform: translate(40px);
+  }
+  50% {
+    -webkit-transform: translate(100px);
+    transform: translate(100px);
+  }
+  100% {
+    -webkit-transform: translate(40px);
+    transform: translate(40px);
+  }
+}
+
